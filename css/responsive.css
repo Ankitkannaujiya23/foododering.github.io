@@ -1,0 +1,104 @@
+/* Navigation menu */
+
+.navbar{
+    flex-direction: column;
+    padding: 15px;
+}
+.nav-menu{
+    flex-direction: column;   
+}
+.nav-menu li {
+    margin: 8px;
+}
+nav .btn-sm{
+  font-size: 14px;
+    padding: 7px 16px;
+    border-radius: 45px;
+    margin-top: 10px;
+}
+/* Home (Section 1) */
+
+header .text-big{
+    font-size: 23px;
+    padding: 5px 0;
+}
+header .text-small{
+    font-size: 13px;
+    padding: 5px 6px;
+}
+
+header .btn-order{
+    font-size: 13px;
+    padding: 5px 10px;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+/* Services Container */
+.services-container h1{
+    font-size: 23px;
+    padding: 10px 5px;
+}
+
+#services{
+    flex-direction: column;
+    margin: 0 5px;
+    margin-bottom: 20px;
+}
+
+
+/* Our Clients secton    */
+.clients-container h1{
+    font-size: 23px;
+    padding: 10px 5px;
+}
+#our-clients{
+    flex-wrap: wrap;
+}
+
+#our-clients .box div img{
+    width: 70px;
+    height: 50px;
+    padding: 10px 10px;
+}
+
+
+
+/* Contact Us Container */
+#contact-container h1{
+    
+    font-size: 23px;
+    padding: 10px 5px;
+}
+#contact {
+    width: 80%;
+}
+#contact form .form-gorup{
+    width: 176%;
+    padding: 0px 0;
+    display: block;
+    margin: auto;
+    font-size: 23px;
+}
+#contact form .btn-send{
+    font-size: 12px;
+    padding: 5px 10px;   
+}
+#contact form label{
+    font-size: 18px;
+}
+#contact form input{
+    font-size: 13px;
+}
+/* Footer Container */
+
+
+/* Utility classes */
+
+.heading{
+    font-size: 23px;
+    padding: 10px 5px;
+}
+.sub-heading{
+    font-size: 24px;
+}
